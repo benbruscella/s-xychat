@@ -1,0 +1,25 @@
+{
+  "name": "s-xychat",
+  "version": "0.0.0",
+  "description": "For the next/v2 s*xy chat app",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~3.3.8",
+    "jade": "~0.35.0",
+    "socket.io": "~0.9.16"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/benbruscella/s-xychat.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/benbruscella/s-xychat/issues"
+  }
+}
