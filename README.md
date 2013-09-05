@@ -1,3 +1,3 @@
-# Using Node.js and Websockets to Build a Chat Service
+# Chat using Node.js, Websockets, & Express
 
-The source code for the Nettuts+ article, "Using Node.js and Websockets to Build a Chat Service" by Guillaume Besson.
+For the next/v2 s*xy chat app.
