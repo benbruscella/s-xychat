@@ -5,7 +5,11 @@ var app = express()
   , server = http.createServer(app)
   , io = require('socket.io').listen(server);
 
-server.listen(80);
+
+var port = process.env.PORT || 3000;
+server.listen(port, function() {
+  console.log("Listening on " + port);
+});
 
 var jade = require('jade');
 
